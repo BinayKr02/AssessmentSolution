@@ -23,7 +23,6 @@ function balanceSheetFunction(data) {
   var months = 0;
   months += (maxDate.getFullYear()-minDate.getFullYear())*12;
   months += maxDate.getMonth() - minDate.getMonth() + 1;
- var ayush = []
   
      for(let i=0; i<months; i++)
       {
