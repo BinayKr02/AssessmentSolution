@@ -1,7 +1,7 @@
 (function main() {
 
 function balanceSheetFunction(data) {
-  //here i am creating a map to store the balance of every month
+  //here i am creating an object to store the balance of every month
   let balanceSheet = {};
   
   let minDate = new Date(data.revenueData[0].startDate);
